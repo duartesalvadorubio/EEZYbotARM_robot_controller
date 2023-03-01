@@ -2,6 +2,7 @@
 //#include <Servo.h>
 #include "Arduino.h"
 #include "functionsLibrary.h"
+#include <VarSpeedServo.h>
 
 
 // FS IA6B Pin in
@@ -41,6 +42,14 @@ VarSpeedServo servo4;//Nombre de mi servo. Pin 11
 
 
 // *** >>> FUNCTIONS <<< ***
+
+void servoInitialize(){
+  //Servo pinout
+  servo1.attach(6);
+  servo2.attach(9);
+  servo3.attach(10);
+  servo4.attach(11);
+}
 
 void getPulseWide(){
     //Obtención del ancho de pulso de cada canal

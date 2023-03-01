@@ -9,12 +9,7 @@ unsigned long tiempoant;
 // *** >>> MAIN PROGRAM <<< ***
 
 void setup() {
-  //Pines de los servos
-  servo1.attach(6);
-  servo2.attach(9);
-  servo3.attach(10);
-  servo4.attach(11);
-
+  servoInitialize();
   Serial.begin(9600);
 }
 
