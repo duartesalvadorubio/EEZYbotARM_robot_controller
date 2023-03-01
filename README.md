@@ -5,7 +5,7 @@ Simple software controller to manage EEZYbotARM based on ad-hoc control hardware
 The robot is controlled by a Flysky ia6-b radio receiver and a radio control transmitter. It consists of a manual and an automatic operating mode:
 
 - **Manual mode:** For which the radio control and the receiver are used. The user can drive the robot by using the sticks.
-- **Automatic mode:** For which certain position values are memorized for which the robot must carry out a programmed movement.
+- **Automatic mode:** In this mode certain position values are memorized for which the robot must carry out a programmed movement.
 
 The program is structured in the following files:
 
