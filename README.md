@@ -1,8 +1,15 @@
 # EEZYbotARM_robot_controller
- Arduino-based controller for EEZYbotARM robotic arm
+
  
-Simple software controller to manage [EEZYbotARM](http://www.eezyrobots.it/eba_mk1.html) based on ad-hoc control hardware. An Atmega 328p microcontroller programmed using the Arduino environment is used.
-The robot is controlled by a Flysky ia6-b radio receiver and a radio control transmitter. It consists of a manual and an automatic operating mode:
+Simple software controller to manage [EEZYbotARM](http://www.eezyrobots.it/eba_mk1.html) based on ad-hoc control hardware. 
+
+# Overview
+
+An experimental development of a hardware control board using an Atmega 328p microcontroller is carried out. An RC transmitter and a Flysky ia6-b receiver are used as controllers for the robot. The hardware board developed has the specific connections for the servos and the receiver, and is programmed using the Arduino environment.
+
+# Program description
+
+The program consists of a manual and an automatic operating mode:
 
 - **Manual mode:** For which the radio control and the receiver are used. The user can drive the robot by using the sticks.
 - **Automatic mode:** In this mode certain position values are memorized for which the robot must carry out a programmed movement.
