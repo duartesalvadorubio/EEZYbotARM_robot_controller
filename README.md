@@ -19,4 +19,14 @@ The program is structured in the following files:
 - **EEZYbotARM_robot_controller:** Main program, makes calls to the control functions.
 - **functionsLibrary:** Consists of a header file and a source code file. The functions necessary to manage the use of the radio receiver and the handling of the robot's servos are collected.
 
-Images: // TO ADD
+# Project images
+
+[EEZYbot](http://www.eezyrobots.it/eba_mk1.html) robot overview:
+![IMG20230304112418](https://user-images.githubusercontent.com/101353583/222894825-264cf9d8-dfaf-4af0-85ff-ef5ef23a4ca7.jpg)
+
+
+Ad-hoc microcontroller hardware:
+![IMG20230304112343](https://user-images.githubusercontent.com/101353583/222894836-53b918ae-918d-495d-a2f2-5c804579b1cc.jpg)
+
+Ad-hoc potentiometer controls:
+![IMG20230304112242](https://user-images.githubusercontent.com/101353583/222894841-26846e92-9ce2-479d-b606-66e5f75254b2.jpg)
